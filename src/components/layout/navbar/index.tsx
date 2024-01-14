@@ -60,7 +60,7 @@ const NavigationBar = () => {
           <div className="flex gap-2 justify-end items-center border-l-2 pl-4 border-gray-100">
             <ThemeSwitcher />
           
-            <SimpleButton  onClick={() => window?.open('/files/birnesh_resume.pdf', '_blank')}>{"Download CV"}</SimpleButton>
+            <SimpleButton  onClick={() => window?.open('/public/files/birnesh_resume.pdf', '_blank')}>{"Download CV"}</SimpleButton>
           </div>
         </div>
       </nav>
@@ -118,7 +118,7 @@ const NavigationBar = () => {
                 <span>{"Switch Theme"}</span>
                 <ThemeSwitcher />
               </div>
-              <SimpleButton className="w-full" onClick={() => window?.open('/files/birnesh_resume.pdf', '_blank')}>Download CV</SimpleButton>
+              <SimpleButton className="w-full" onClick={() => window?.open('/public/files/birnesh_resume.pdf', '_blank')}>Download CV</SimpleButton>
             </div>
           </div>
         </Dialog.Panel>
